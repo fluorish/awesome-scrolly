@@ -8,6 +8,8 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-sass`,
+    'gatsby-plugin-postcss',
+    'gatsby-plugin-root-import',
     {
       resolve: `gatsby-plugin-less`,
       options: {
