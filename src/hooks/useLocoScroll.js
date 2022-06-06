@@ -46,6 +46,10 @@ export default function useLocoScroll(start) {
         }
         return null;
       },
+      // getBoundingClientRect() {
+      //   return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+      // },
+      // pinType: scrollEl.style.transform ? "transform" : "fixed"
     });
 
     const lsUpdate = () => {

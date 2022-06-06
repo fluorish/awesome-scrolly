@@ -7,6 +7,7 @@ import Feature from "../../components/Feature";
 import "styles/global.scss";
 import Container from "./styled";
 import Playground from "../../components/Playground";
+import FlipPlayground from "../../components/FlipPlayground";
 const Home = () => {
   const ref = useRef(null);
   const [preloader, setPreload] = useState(true);
@@ -76,6 +77,8 @@ const Home = () => {
       >
         {/* <First /> */}
         <Playground/>
+        <FlipPlayground />
+        
         <About />
         <Gallery />
         <Feature />

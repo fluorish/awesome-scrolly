@@ -2,9 +2,20 @@ import styled from "styled-components";
 
 const Section = styled.section`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   min-height: 100vh;
+
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+  
+  }
 
   .block-item {
     display: flex;
